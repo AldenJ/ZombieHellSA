@@ -91,7 +91,7 @@ timer UpdateZombieMovement[800]()
 						{
 		    				if(!FCNPC_IsDead(j))
 						    {
-						        FCNPC_Stop(j);
+						        //FCNPC_Stop(j);
 					    		pInfo[i][pHealth] -= random(50);
 							}
 						}
